@@ -45,7 +45,9 @@
     menu, .menu {
         padding: 0;
         border-radius: 0;
-        border: 0;
+        border: 1px;
+        border-style: solid; 
+        border-color: $menu_fg_color;
         background-color: $menu_bg_color;
         color: $menu_fg_color;
 

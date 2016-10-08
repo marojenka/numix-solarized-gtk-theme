@@ -47,6 +47,9 @@
 
     GtkTreeMenu, GtkMenuToolButton, GtkComboBox {
         &.menu, .menu {
+            border: 1px;
+            border-style: solid; 
+            border-color: $menu_fg_color;
             background-color: $menu_bg_color;
             margin: $spacing;
         }
